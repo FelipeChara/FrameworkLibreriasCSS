@@ -76,27 +76,23 @@
     display: none;
   }
 
-  .movies-row {
-    min-height: 250px;
+  .navegacion li{
+    width: 100%;
   }
 
-  .movies-column {
-    min-height: 230px;
+  .column-contenido{
+    width: 100%;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1000px)  {
+  /* Clase para ocultar componentes HTML */
+
+  .navegacion li{
+    width: 100%;
   }
 
-  .jumbotron {
-    min-height: 400px;
-  }
-
-  .jumbotron-img{
-    margin-top: 20px;
-  }
-
-  h2{
-    font-size: 22px;
-  }
-
-  .titulo-cartelera{
-    font-size: 15px;
+  .column-contenido{
+    width: 100%;
   }
 }
