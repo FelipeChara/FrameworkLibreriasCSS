@@ -1,6 +1,6 @@
 
 .fondo-body {
-  background: #FF5B5B;
+  background: #E04F4F;
   width: 100%;
   height: 100%;
 }
@@ -15,18 +15,13 @@
 }
 
 .navegacion{
-  background-color: #AAA;
+  background-color: #DDD;
   margin: 0;
-  color: white;
 }
 
 .navegacion a{
-  color: white;
-  font-size: 1.2em;
-}
-
-.navegacion a:hover{
   color: black;
+  font-size: 1.2em;
 }
 
 .navegacion li{
@@ -51,8 +46,8 @@
 }
 
 .fondo-contenido{
-  background-color: #AAA;
-  color: white;
+  background-color: #DDD;
+  color: black;
   margin: 0 4%;
   border-radius: 5px !important;
 }
@@ -69,11 +64,39 @@
 
 .text-contenido{
   font-size: 1.1em;
-  color: white;
 }
 
-
+.list-buscar{
+  color: black;
+}
 
 @media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
 
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 400px;
+  }
+
+  .jumbotron-img{
+    margin-top: 20px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  .titulo-cartelera{
+    font-size: 15px;
+  }
 }
