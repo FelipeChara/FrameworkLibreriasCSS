@@ -1,11 +1,15 @@
-.logo-img{
-  width: 30%;
+body{
+  background: url("../img/fondoRestaurante.jpg") no-repeat;;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
 }
 
-img{
-  max-height: 129px;
+.fondo-contenido{
+  background-color: yellow;
+  opacity: 0.9;
 }
 
-div.secondary.callout.text-center{
-  min-height: 242px;
+.img-public{
+  width: 100%;
 }

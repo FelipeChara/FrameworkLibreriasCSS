@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="row">
+    <div class="row fondo-contenido">
 
       <div class="small-12 columns small-order-1">
         <div class="row">
-          <div class="medium-4 columns">
+          <div class="medium-3 columns">
             <div class="column row">
               <div class="hide-for-small-only">
                 <h1>Delicias</h1>
@@ -24,32 +24,107 @@
               </div>
             </div>
           </div>
-          <div class="medium-4 columns medium-offset-4">
+          <div class="medium-4 columns medium-offset-5">
 
           </div>
         </div>
       </div>
 
-
       <div class="small-12 columns small-order-3">
         <div class="row large-uncollapse">
-          <div class="large-3 medium-4 columns show-for-medium">
-            <div class="callout">
+          <div class="large-4 medium-4 columns show-for-medium">
+            <div class="callout ">
               <form>
                 <div class="row column">
-                  <label>Por nombre:
-                    <span> <i class="fi-magnifying-glass"> </i> </span><input type="text" name="name">
+                  <label>Busqueda:
+                    <input type="text" name="name" placeholder="Busca" />
                   </label>
                 </div>
+                <div class="row column">
+                  <ul class="vertical menu align-center">
+                    <li><a href="#"><i class="fi-list"></i> <span>Inicio</span></a></li>
+                    <li><a href="#"><i class="fi-list"></i> <span>Recetas</span></a></li>
+                    <li><a href="#"><i class="fi-list"></i> <span>Promociones</span></a></li>
+                  </ul>
+                </div>
+
+                <div class="row column">
+                  <h5>Favoritos</h5>
+                  <div class="row large-uncollapse">
+                    <div class="large-4 small-12 medium-6 columns">
+                        <img src="img/1.jpg" alt="Plato 1" class="thumbnail"/>
+                    </div>
+                    <div class="large-4 small-12 medium-6 columns">
+                        <img src="img/2.jpg" alt="Plato 1" class="thumbnail"/>
+                    </div>
+                    <div class="large-4 small-12 medium-6 columns">
+                        <img src="img/3.jpg" alt="Plato 1" class="thumbnail"/>
+                    </div>
+                  </div>
+                  <div class="row large-uncollapse">
+                    <div class="large-4 small-12 medium-6 columns">
+                        <img src="img/4.jpg" alt="Plato 1" class="thumbnail"/>
+                    </div>
+                    <div class="large-4 small-12 medium-6 columns">
+                        <img src="img/5.jpg" alt="Plato 1" class="thumbnail"/>
+                    </div>
+                    <div class="large-4 small-12 medium-6 columns">
+                        <img src="img/6.jpg" alt="Plato 1" class="thumbnail"/>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row column">
+                  <h5>Historial</h5>
+                  <ul class="vertical inline-list">
+                    <li>Bandeja Paisa</li>
+                    <li>Limonada</li>
+                    <li>Ajiaco</li>
+                  </ul>
+                </div>
+
 
               </form>
             </div>
           </div>
-          <div class="large-9 columns">
+          <div class="large-8 columns">
             <div class="callout">
-              <h3>Decoración</h3>
-              <hr>
+              <h3>Bandeja Paisa</h3>
+              <h6>16 de Febrero de 2019</h6>
 
+              <div class="row column">
+                  <img src="img/bandeja-paisa.jpg" alt="bandeja paisa" class="thumbnail img-public"/>
+              </div>
+              <div class="row column">
+                  <p>Es probablemente una evolución comercial, desarrollada en los restaurantes antioqueños de Medellín, Bogotá y otros sitios de Colombia, a partir del tradicional «seco» antioqueño, un plato compuesto por arroz, frijol, carne, algo de frito y plátano, y acompañado con arepa. También puede haber evolucionado a partir de otro plato de común usanza en la región, conocido en la actualidad como <strong>típico montañero</strong> . Dicho lo anterior, se debe recalcar que el envuelto antioqueño y su derivación en "seco," como se denomina al plato típico de la cocina vernácula paisa, es la base culinaria de lo que se conoce como bandeja paisa, y sus orígenes se remontan a la colonización misma de la región paisa colombiana.</p>
+              </div>
+              <hr>
+              <div class="row column">
+                <label>Escriba su comentario:
+                  <textarea placeholder="Comentario"></textarea>
+                </label>
+                <input type="submit" class="button float-right" value="Publicar"/>
+              </div>
+              <hr>
+            </div>
+            <div class="callout">
+              <h3>Ajiaco</h3>
+              <h6>08 de Febrero de 2019</h6>
+
+              <div class="row column">
+                  <img src="img/ajiaco.jpg" alt="ajiaco" class="thumbnail img-public"/>
+              </div>
+              <div class="row column">
+                  <p>El ajiaco bogotano o santafereño consiste en una sopa de pollo que contiene diferentes tipos de papa y se puede servir sola o con crema de leche y alcaparras encurtidas, generalmente en tazones de barro cocido. El ajiaco también suele incluir mazorcas de maíz tierno. Por el importante rol cultural que juega, se le considera una tradición santafereña (por el nombre colonial de la ciudad, Santa Fe de Bogotá).</p>
+              </div>
+              <hr>
+              <div class="row column">
+                <label>Escriba su comentario:
+                  <textarea placeholder="Comentario"></textarea>
+                </label>
+                <input type="submit" class="button float-right" value="Publicar"/>
+              </div>
+              <hr>
             </div>
           </div>
         </div>
