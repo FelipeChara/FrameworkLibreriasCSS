@@ -18,9 +18,10 @@ div[class*="bloque"]{
   min-height: 17rem;
 }
 .logo{
-  width: 40px;
-  margin-top: 0.5rem;
+  width: 30%;
+  margin: 0.5rem;
   float: left;
+  border-radius: 10px;
 }
 .contenedor-noticias{
   margin-top: 1rem;
@@ -55,5 +56,8 @@ div[class*="bloque"]{
 @media (max-width: 600px) {
   .columna-grupos{
     padding: 0 !important;
+  }
+  .logo{
+    width: 100%;
   }
 }
